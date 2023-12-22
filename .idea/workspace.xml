@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a41fc452-0218-4560-badc-8577521a4a98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LombokDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/DiDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/SpringIOCDEmo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/annotations/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/annotations/SMSGateWayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/di/annotations/SpringAnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projectbeans.xml" afterDir="false" />
+    <list default="true" id="a41fc452-0218-4560-badc-8577521a4a98" name="Changes" comment="IOC and DI using xml file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/SpringIOCDEmo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/SpringIOCDEmo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/annotations/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/annotations/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/annotations/SpringAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/annotations/SpringAnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/projectbeans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/projectbeans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SpringAnnotationDemo">
+  <component name="RunManager" selected="Application.SpringIOCDEmo">
     <configuration name="DiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="di.DiDemo" />
       <module name="lombok-spring-ioc-di" />
@@ -103,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpringAnnotationDemo" />
         <item itemvalue="Application.SpringIOCDEmo" />
+        <item itemvalue="Application.SpringAnnotationDemo" />
         <item itemvalue="Application.DiDemo" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,6 +108,14 @@
       <option name="presentableId" value="Default" />
       <updated>1703140478828</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lombok Spring IOC and DI demo">
+      <created>1703147232224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703147232224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,5 +128,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lombok Spring IOC and DI demo" />
+    <MESSAGE value="IOC and DI using xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="IOC and DI using xml file" />
   </component>
 </project>

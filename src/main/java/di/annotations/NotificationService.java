@@ -1,8 +1,10 @@
 package di.annotations;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("notificationService")
+@Scope("prototype")
 public class NotificationService {
     private SMSGateWayService smsGateWayService;
 

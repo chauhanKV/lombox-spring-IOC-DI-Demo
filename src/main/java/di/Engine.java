@@ -13,4 +13,14 @@ public class Engine {
     public Engine() {
         System.out.println("Engine No Arg Constructor is getting called");
     }
+
+    public void engineInit()
+    {
+        System.out.println("init method");
+    }
+
+    public void engineDestory()
+    {
+        System.out.println("bean destroyed");
+    }
 }
