@@ -3,6 +3,7 @@ package di.annotations;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+// @Component is used manually in Spring projects to ask the application to create bean.
 @Component("notificationService")
 @Scope("prototype")
 public class NotificationService {
